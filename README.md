@@ -10,7 +10,7 @@ v.1: https://github.com/Art3m198/Exchange-Rates-Russian-ruble
 Getting data using the API https://www.cbr-xml-daily.ru/  
 Получаем данные при помощи API https://www.cbr-xml-daily.ru/  
 
-App use JS, Bootstrap, CSS и HTML  
+App use JS, Bootstrap, CSS and HTML  
 
 ## Screenshot  
 
