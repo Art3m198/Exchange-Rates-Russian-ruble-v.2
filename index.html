@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Актуальный курс рубля" />
+<meta property="og:title" content="Курс рубля" />
+<meta property="og:description" content="Актуальный курс рубля" />
+<link rel="icon" href="http://faviconka.ru/ico/faviconka_ru_1009.png" type="image/x-icon">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link href="css/style.css" rel="stylesheet" id="style-css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+<title>Курс российского рубля</title>
+</head>
+<body>
+<div class="content">
+<div class="content-block">
+        <div class="container text-center covid">
+    <h1 class="text-center frame">Курс Рубля ЦБ РФ</h1>
+
+      </div>
+	  
+      <h4 class="text-center">По состоянию на: <div id="date"></div></h4>
+
+      <div class="container">
+         <div class="row">
+
+            <div class="col-md-4">
+                <div class="card bg-c-today order-card">
+                    <div class="card-block">
+                        <h6 class="mb-20 text-center"><div id="nameUSD"></div></h6>
+                         <h2 class="text-center"><div id="USD"></div></h2>
+                         <div class="text-center" id="nomUSD">За </div> 
+                    </div>
+                    </div>
+                    </div>
+
+            <div class="col-md-4">
+                <div class="card bg-c-today order-card">
+                    <div class="card-block">
+                        <h6 class="mb-20 text-center"><div id="nameEUR"></div></h6>
+                         <h2 class="text-center"><div id="EUR"></div></h2>
+                         <div class="text-center" id="nomEUR">За </div>
+                    </div>
+                    </div>
+                    </div>
+            <div class="col-md-4">
+                <div class="card bg-c-today order-card">
+                    <div class="card-block">
+                        <h6 class="mb-20 text-center"><div id="nameBYN"></div></h6>
+                         <h2 class="text-center"><div id="BYN"></div></h2>
+                         <div class="text-center" id="nomBYN">За </div>
+                    </div>
+                    </div>
+                    </div>
+            <div class="col-md-4">
+                <div class="card bg-c-today order-card">
+                    <div class="card-block">
+                        <h6 class="mb-20 text-center"><div id="nameCAD"></div></h6>
+                         <h2 class="text-center"><div id="CAD"></div></h2>
+                         <div class="text-center" id="nomCAD">За </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-c-today order-card">
+                            <div class="card-block">
+                                <h6 class="mb-20 text-center"><div id="nameCHF"></div></h6>
+                                 <h2 class="text-center"><div id="CHF"></div></h2>
+                                 <div class="text-center" id="nomCHF">За </div>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card bg-c-today order-card">
+                                    <div class="card-block">
+                                        <h6 class="mb-20 text-center"><div id="nameCNY"></div></h6>
+                                         <h2 class="text-center"><div id="CNY"></div></h2>
+                                         <div class="text-center" id="nomCNY">За </div>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card bg-c-today order-card">
+                                            <div class="card-block">
+                                                <h6 class="mb-20 text-center"><div id="nameCZK"></div></h6>
+                                                 <h2 class="text-center"><div id="CZK"></div></h2>
+                                                 <div class="text-center" id="nomCZK">За </div>
+                                            </div>
+                                            </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="card bg-c-today order-card">
+                                                    <div class="card-block">
+                                                        <h6 class="mb-20 text-center"><div id="nameGBP">Фунт Стерлингов С.К.</div></h6>
+                                                         <h2 class="text-center"><div id="GBP"></div></h2>
+                                                         <div class="text-center" id="nomGBP">За </div>
+                                                    </div>
+                                                    </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="card bg-c-today order-card">
+                                                            <div class="card-block">
+                                                                <h6 class="mb-20 text-center"><div id="nameJPY"></div></h6>
+                                                                 <h2 class="text-center"><div id="JPY"></div></h2>
+                                                                 <div class="text-center" id="nomJPY">За </div>
+                                                            </div>
+                                                            </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="card bg-c-today order-card">
+                                                                    <div class="card-block">
+                                                                        <h6 class="mb-20 text-center"><div id="nameKZT"></div></h6>
+                                                                         <h2 class="text-center"><div id="KZT"></div></h2>
+                                                                         <div class="text-center" id="nomKZT">За </div>
+                                                                    </div>
+                                                                    </div>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="card bg-c-today order-card">
+                                                                            <div class="card-block">
+                                                                                <h6 class="mb-20 text-center"><div id="nameNOK"></div></h6>
+                                                                                 <h2 class="text-center"><div id="NOK"></div></h2>
+                                                                                 <div class="text-center" id="nomNOK">За </div>
+                                                                            </div>
+                                                                            </div>
+                                                                            </div>
+                                                                            <div class="col-md-4">
+                                                                                <div class="card bg-c-today order-card">
+                                                                                    <div class="card-block">
+                                                                                        <h6 class="mb-20 text-center"><div id="namePLN"></div></h6>
+                                                                                         <h2 class="text-center"><div id="PLN"></div></h2>
+                                                                                         <div class="text-center" id="nomPLN">За </div>
+                                                                                    </div>
+                                                                                    </div>
+                                                                                    </div>
+                                                                                    <div class="col-md-4">
+                                                                                        <div class="card bg-c-today order-card">
+                                                                                            <div class="card-block">
+                                                                                                <h6 class="mb-20 text-center"><div id="nameSEK"></div></h6>
+                                                                                                 <h2 class="text-center"><div id="SEK"></div></h2>
+                                                                                                 <div class="text-center" id="nomSEK">За </div>
+                                                                                            </div>
+                                                                                            </div>
+                                                                                            </div>
+                                                                                            <div class="col-md-4">
+                                                                                                <div class="card bg-c-today order-card">
+                                                                                                    <div class="card-block">
+                                                                                                        <h6 class="mb-20 text-center"><div id="nameTRY"></div></h6>
+                                                                                                         <h2 class="text-center"><div id="TRY"></div></h2>
+                                                                                                         <div class="text-center" id="nomTRY">За </div>
+                                                                                                    </div>
+                                                                                                    </div>
+                                                                                                    </div>
+                                                                                                    <div class="col-md-4">
+                                                                                                        <div class="card bg-c-today order-card">
+                                                                                                            <div class="card-block">
+                                                                                                                <h6 class="mb-20 text-center"><div id="nameUAH"></div></h6>
+                                                                                                                 <h2 class="text-center"><div id="UAH"></div></h2>
+                                                                                                                 <div class="text-center" id="nomUAH">За </div>
+                                                                                                            </div>
+                                                                                                            </div>
+                                                                                                            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+    <div class = "content-block" id="footer">
+        <div class="container ">
+                    <p><a href="https://github.com/Art3m198" target="_blanc"><img src="images/git.png" width="23" height="23" ></a> @art3m198</p>
+                    <a target="_blanc" href="https://www.cbr-xml-daily.ru/">Курсы ЦБ РФ в XML и JSON, API</a>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="//www.cbr-xml-daily.ru/daily_jsonp.js" async></script>	
+</body>
+</html>
