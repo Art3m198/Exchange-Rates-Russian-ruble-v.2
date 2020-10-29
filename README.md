@@ -15,4 +15,9 @@ App use JS, Bootstrap, CSS and HTML
 ## Screenshot  
 
 ### Main  
+
 <img src="https://github.com/Art3m198/Exchange-Rates-Russian-ruble-v.2/blob/main/images/main.PNG" width="50%" height="50%">  
+
+## Demo:
+
+[Demo page](https://art3m198.github.io/Exchange-Rates-Russian-ruble-v.2/)    
